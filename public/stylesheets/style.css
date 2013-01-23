@@ -1,0 +1,141 @@
+/* Regular */
+@font-face {
+  font-family: 'League Gothic';
+  font-style: regular;
+  src: url("../Fonts/webfonts/leaguegothic-regular-webfont.ttf");
+}
+html {
+  min-height: 800px;
+  min-width: 1000px;
+  cursor: default;
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  background: url("../images/james_bond_craig.jpg") no-repeat;
+  background-size: cover;
+}
+a {
+  color: #00b7ff;
+}
+#content {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+#intro {
+  font: 80px "League Gothic";
+  float: left;
+  height: auto;
+  padding: 40px;
+  margin-left: 50px;
+  margin-top: 80px;
+  color: #b8860b;
+}
+#projectdata {
+  float: left;
+  height: auto;
+  margin-left: -150%;
+  margin-top: 80px;
+  color: #b8860b;
+  display: none;
+}
+#aboutdata {
+  font: 30px "League Gothic";
+  float: left;
+  height: auto;
+  margin-left: -150%;
+  margin-top: 80px;
+  color: #000;
+  background: #000;
+  background: rgba(255,255,255,0.3);
+  padding: 30px;
+  display: none;
+}
+#aboutdata > div {
+  float: left;
+  margin-right: 30px;
+}
+#aboutdata > div > p {
+  color: #b8860b;
+}
+#designdata {
+  display: none;
+  float: left;
+  height: auto;
+  margin-left: -150%;
+  margin-top: 80px;
+  color: #b8860b;
+}
+#nav {
+  float: left;
+}
+#morenavbar {
+  display: none;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+  padding-left: 10px;
+  border-left: 8px solid #b8860b;
+}
+#morenavbar > div:hover {
+  text-shadow: 3px 3px 3px #b8860b;
+}
+#navbar {
+  font: 40px "League Gothic";
+  float: left;
+  margin-left: 90px;
+}
+#navbar > div > h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#navbar > div > h3:hover {
+  text-shadow: 3px 3px 3px #b8860b;
+}
+.designcontainer {
+  background: #000;
+  background: rgba(255,255,255,0.3);
+  width: auto;
+  height: auto;
+  float: left;
+}
+#brainstormslide {
+  display: block;
+}
+#brainstormslide > a {
+  float: left;
+}
+#storyboardslide {
+  display: none;
+  float: left;
+  margin-top: -150%;
+}
+#depthslide {
+  display: none;
+  float: left;
+  margin-top: -150%;
+}
+#finalslide {
+  display: none;
+  float: left;
+  margin-top: -150%;
+}
+.imagecontainer {
+  float: left;
+  margin: 20px;
+}
+.description {
+  font: 25px "League Gothic";
+  color: #000;
+  float: left;
+  margin: 20px;
+  padding-left: 10px;
+  border-left: 3px solid #b8860b;
+}
+.highlight {
+  text-shadow: 3px 3px 3px #b8860b;
+}
+.highlight2 {
+  text-shadow: 3px 3px 3px #b8860b;
+}
